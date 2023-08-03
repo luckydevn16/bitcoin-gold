@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Bitcoin Gold 2022</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/splide.min.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <nav class="navigation mobile">
+            <img src="assets/img/close.png" alt="close" class="menu-close-img">
+            <ul class="nav-list mobile flex column">
+                <li class="nav-list-item" onclick="scrollToElem('.hero-video-wrapper'),menuClosing()">
+                    <img src="assets/img/logo.png" alt="logo" class="logo-img"> 
+                </li>
+                <li class="nav-list-item hero active" onclick="scrollToElem('#hero'),menuClosing()">Bitcon Gold Hakkında</li>
+                <li class="nav-list-item steps" onclick="scrollToElem('#steps'),menuClosing()">Nasıl başlarım?</li>
+                <li class="nav-list-item reviews" onclick="scrollToElem('#reviews'),menuClosing()">Bizimle Kazananlar</li>
+                <li class="nav-list-item founder" onclick="scrollToElem('#founder'),menuClosing()">Kurucumuz</li>
+            </ul>
+        </nav>
+        <header class="header" id="header">
+            <div class="container flex just-btwn center">
+                <img src="assets/img/logo.png" alt="logo" class="logo-img"onclick="scrollToElem('.hero-video-wrapper')" loading="lazy">
+                <nav class="navigation">
+                    <ul class="nav-list flex center just-center">
+                        <li class="nav-list-item hero active" onclick="scrollToElem('#hero')">Bitcon Gold Hakkında</li>
+                        <li class="nav-list-item steps" onclick="scrollToElem('#steps')">Nasıl başlarım?</li>
+                        <li class="nav-list-item reviews" onclick="scrollToElem('#reviews')">Bizimle Kazananlar</li>
+                        <li class="nav-list-item founder" onclick="scrollToElem('#founder')">Kurucumuz</li>
+                    </ul>
+                </nav>
+                <div class="winners-widget flex center just-center">
+                    <div class="winners-widget-inner flex center">
+                        <img src="assets/img/users/male/11.jpg" alt="winner" id="winnerImg" loading="lazy">
+                        <div class="winner-info">
+                            <span id="winnerName">Murat Z.</span> şu anda <br>
+                            <span class="text-colored">
+                                <span id="winnerProfit">112</span>$
+                            </span> kazandi!
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/hamburger.png" alt="menu" class="menu-open-img" loading="lazy">
+            </div>
+        </header>
+        <main>
+            <section class="hero-section" id="hero">
+                <div class="container flex just-btwn">
+                    <div class="hero-video-wrapper">
+                        <div class="main-heading-wrapper flex center">
+                            <h1 class="main-heading">
+                                Bitcoin İle Yüksek Kazançlar Sağlayın
+                                Siz de günlük <span class="text-colored">3250$</span> kazanabilirsiniz!
+                            </h1>
+                            <img src="assets/img/golden-coin.png" alt="golden-coin" class="heading-img" loading="lazy">
+                        </div>
+                        <div class="video">
+                            <video 
+                                poster="assets/video/poster.png" 
+                                width="100%" 
+                                playsinline 
+                                controls 
+                                controlsList="nodownload"
+                                ></video>
+                            <div class="play-btn"></div>
+                        </div>
+                    </div>
+                    <div class="hero-form-wrapper form">
+                        <h4 class="form-heading text-colored">
+                            Bitcoin İle Yüksek Kazançlar Sağlayın siz de*
+                        </h4>
+                        <form action="thankyou.html" class="form" onsubmit="event.preventDefault(); formSubmission()">
+                            <p class="form-disclaimer">
+                                *This form is here only for layout demonstration. The entered data is not sent anywhere.
+                            </p>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input name" placeholder="Adınız">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input lastname" placeholder="Soyadın">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input email" placeholder="E-posta adresiniz">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input phone" placeholder="Telefon numaran">
+                            </div>
+                            <div class="checkbox-wrap">
+                                <input type="checkbox" name="policy" id="policy" checked>
+                                <label for="policy">
+                                    Gizlilik Politikasını kabul ediyorum
+                                </label>
+                            </div>
+                            <div class="checkbox-wrap">
+                                <input type="checkbox" name="age" id="age" checked>
+                                <label for="age">
+                                    18 yaşının üzerindeyim
+                                </label>
+                            </div>
+                            <div class="required-fields">
+                                Tüm alanları eksiksiz doldurunuz
+                            </div>
+                            <div class="input-wrap">
+                                <button class="btn alert-btn">ÜCRETSİZ KAYIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="assets/img/soft.png" alt="security soft" class="soft-img" loading="lazy">
+                </div>
+            </section>
+            <section class="steps-section" id="steps">
+                <h2 class="section-heading animated">
+                    Kazanmaya başlamak ise çok kolay!
+                </h2>
+                <div class="container step-cards-wrapper flex just-btwn">
+                    <div class="step-card animated">
+                        <div class="step-card-upper flex center just-btwn">
+                            <div class="card-heading-wrapper flex center">
+                                <div class="step-number">1</div>
+                                <h4 class="card-heading text-colored">
+                                    Hesabını oluştur
+                                </h4>
+                            </div>
+                            <img src="assets/img/man-raising-hand.png" alt="man-raising-hand" class="step-card-img" loading="lazy">
+                        </div>
+                        <div class="step-card-lower">
+                            <p class="card-text">
+                                Kayıt formunu doldurarak hesabını oluştur.
+                            </p>
+                            <p class="section-text">
+                                Hesabını oluşturduğunda sana bir yatırım uzmanı ayarlayacağız.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step-card animated">
+                        <div class="step-card-upper flex center just-btwn">
+                            <div class="card-heading-wrapper flex center">
+                                <div class="step-number">2</div>
+                                <h4 class="card-heading text-colored">
+                                    Hesabını aktifleştir
+                                </h4>
+                            </div>
+                            <img src="assets/img/man-with-laptop.png" alt="man-with-laptop" class="step-card-img" loading="lazy">
+                        </div>
+                        <div class="step-card-lower">
+                            <p class="card-text">
+                                Yatırımını yaparak hesabı aktif edebilirsin.
+                            </p>
+                            <p class="section-text">
+                                Yazılımımız tamamen ücretsizdir ama başlayabilmek için ufak bir miktar yatırım yapman gerekir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step-card animated">
+                        <div class="step-card-upper flex center just-btwn">
+                            <div class="card-heading-wrapper flex center">
+                                <div class="step-number">3</div>
+                                <h4 class="card-heading text-colored">
+                                    Kazancının keyfini çıkar
+                                </h4>
+                            </div>
+                            <img src="assets/img/profit-smile.png" alt="profit-smile" class="step-card-img" loading="lazy">
+                        </div>
+                        <div class="step-card-lower">
+                            <p class="card-text">
+                                Fonlamanı yaptıktan hemen sonra yatırdığın paranın çok daha fazlasını kazanmaya başlayabilirsin.
+                            </p>
+                            <p class="section-text">
+                                Bizim sinyallerimizi takip ederek tüyolar alabilir kazancını arttırabilirsin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="decor-circle steps-center"></div>
+            </section>
+            <section class="reviews-section" id="reviews">
+                <h2 class="section-heading animated">
+                    Sistemimizi Kullananların Bizlere Yorumları
+                </h2>
+                <div class="container reviews-wrapper">
+                    <div class="splide reviews-carousel">
+                        <div class="splide__track">
+                            <ul class="splide__list animated">
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/female/burcu.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Burcu Tekneci
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Ben geçen ay işten çıkarıldım. İlk başta ne yapacağım diye düşündüm ve çok üzülmüştüm. İş ararken bu sistemi gördüm. Gerçekten her işte bir hayır varmış diyerek yatırım yaptım. 3 hafta sonra 25.000 USD kazandım. Türkiyede dolar artmışken o kadar iyi oldu ki. Erman Yılmazer’in sistemi tavsiyemdir.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/oguz.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Oğuz Alp Pehlivan
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        İstediğim tekneyi almak için 10.000$ eksiğim kaldı gerisini bu sistem sayesinde kazandım bile. Banka hesabımda o kadar çok param var ki her sabah uyandığımda rüyada olduğumu düşünüyorum. Hayatım boyunca bugünleri beklemişim. Sonunda kendi işimin patronu oldum.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/tolga.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Tolga Sönmez
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Ben üniversiteden geçen sene mezun oldum ve 7 aydır iş arıyordum. Üniversitenin bana kazandıramadığını bu sistem kazandırdı. Avukat olmak yerine kripto para uzmanı oldum artık. Bir avukatın kazandığının 10 katını kazanıyorum. Şimdiden istediğim arabayı aldım. Her şey Bitcoin Gold sayesinde.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/baris.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Barış Çetinok
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        52 gündür Bitcoin Gold platformunda kriptolara yatırım yapıyorum, hayatım şimdiden değişti. İlk başladığımda hesabımda 300 dolar vardı şuan ise 20.000 dolarım var. Hayalini kurduğum Avrupa tatilinin keyfini çıkardım. Böyle bir imkan sağladığın için teşekkürler Erman!
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/ege.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Ege Özyurt
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Geçen ay işten ayrıldım, şuan dünyayı dolaşıyorum. Hayatım hiç bu kadar güzel olmamıştı. Keşke daha önce bu sistemle karşılaşsaydım.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/female/esma.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Esma Kalabak
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Ben Bitcoin Gold ailesine 3 gün önce katıldım. Hesabımda 5000$ görüyorum yani 25.000 TL. Gerçek mi bu?
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/inci.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            İnci Metin Samur
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Biz durumu iyi olan bir aileyiz. Eşimle yatırımlarımızı daha iyi değerlendireceğimiz, banka faizinden daha iyi kazanç sağlayacağımız bir platform ararken bulduk Bitcoin Gold’u. Zaten Bitcoin’in kazandırdığını biliyorduk. Küçük bir miktarla deneme yaptık ve 10.000 dolar yatırdık, bir haftanın sonunda yaklaşık 5 katını kazanınca doğru yerde yatırım yaptığımızı anladık. Biz çok memnunuz.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/male/furkan.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Furkan Türkkan
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Borçlarımdan kurtulabilmek için akşamları çalışacağım bir iş arıyordum. Bir gün haber sitesinde denk geldiğim bu sistemle hayatım değişti. Bugüne kadar borçlarımı boşuna dert etmişim. Bu sistem sayesinde tüm borçlarımdan kurtuldum, insanın kimseye borcu olmaması ne güzel bir hismiş. Şimdiyse hayalini kurduğum villayı almak için yatırımlara devam ediyorum.
+                                    </div>
+                                </li>
+                                <li class="splide__slide review-card">
+                                    <div class="review-card-upper flex center">
+                                        <img src="assets/img/users/female/irma.png" width="64" height="64" alt="user" class="review-card-img" loading="lazy">
+                                        <h4 class="card-heading">
+                                            Irma Albayrak
+                                        </h4>
+                                    </div>
+                                    <div class="review-card-lower section-text">
+                                        Bu sistem sayesinde aylık maaşımı bir günde kazanıyorum, ilk önce ekstra gelir kaynağı olarak düşünmüştüm ama artık sadece evde oturmamak için çalışıyorum.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="founder-section" id="founder">
+                <div class="container flex">
+                    <div class="founder-img-wrapper">
+                        <img src="assets/img/Elon-Musk.png" alt="Elon Musk" class="founder-img animated" loading="lazy">
+                    </div>
+                    <div class="founder-content">
+                        <h2 class="section-heading animated">
+                            Elon Musk
+                        </h2>
+                        <p class="founder-position animated">
+                            Bitcoin Gold’un geliştiricisi ve kurucusu
+                        </p>
+                        <blockquote>
+                            <p class="founder-quote animated">
+                                “Hey millet! Taninmiş bir şirkette çalişirken hep hayalini kurduğum sistem olan Bitcoin Gold’u yarattim. Bu bitcoin yatirim platformu, son 6 ayda yatirimcilari için 15 milyon dolarin üzerinde gelir elde etti ve kar etmeye davam ediyor. Bu yazilimla milyonlar kazanan yatirimcilar kisa sürede hayallerini gerçekleştirdiler. Platformumuz yatirim piyasasinda yeni bir kelime, cünkü sedece burada bu kadar kisa sürede rekor miktarlar kazanabilirsiniz. Para kazanmak istiyorsaniz doğru yerdesiniz.”
+                            </p>
+                        </blockquote>
+                        <div class="signature-wrapper flex center animated">
+                            <p class="signature-name">
+                                Saygilarimla, Elon Musk
+                            </p>
+                            <img src="assets/img/signature.png" alt="signature" class="signature-img" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container flex center just-btwn">
+                <p class="footer-text animated">
+                    MTM’nin hizmeti, CFD’leri veya diğer finansal ürünleri satın almak veya satmak için profesyonel tavsiye olarak düşünülmemelidir; broker kullanımı, müşterinin tek risk ve yargısına tabidir. Burada duyurulan bilgiler mutlaka gerçek zamanlı olmayabilir. Yatirimi yapan finansal ürünler yüksek düzeyde bir risk taşır ve yatırım yapanin sermayesinin tamamen kaybolmasına neden olabilir. Yatirima karar vermeden önce, Broker’ın Sartlar ve Kosullarini ve risk maddelerini mutlaka okuyun.<br>
+                    <a href="javascript:void(0)" class="alterlink">Gizlilik Politikası</a> |   
+                    <a href="javascript:void(0)" class="alterlink">Risk Açıklaması</a>
+                </p>
+                <img src="assets/img/turk.png" alt="turkey" class="footer-img animated" loading="lazy">
+            </div>
+        </footer>
+        <div class="decor-circle hero-left"></div>
+        <div class="decor-circle hero-right"></div>
+        <div class="decor-circle bottom-left"></div>
+        <div class="decor-circle bottom-right"></div>
+        <img src="assets/img/svg/Group.svg" alt="coin" class="coin-decor-img">
+    </div>
+    <script src="assets/js/splide.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
